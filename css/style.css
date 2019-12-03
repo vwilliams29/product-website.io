@@ -1,13 +1,35 @@
-hr.line{
-   border: 27px solid pink;
-}
+
 img{
-  width: 670px;
-  height: 670px;
-  al
+  width: 200px;
+  height: 200px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+  height: 16%;
 }
 h2{
   font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 60px;
+}
+table{
+  width: 105%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+h1{
+  text-align: center;
+}
+.topbar{
+  background-color: pink;
+  overflow: hidden;
+}
+.topbar a:hover{
+  background-color: white;
+}
+.topbar a.active{
+  color: #d3a7fa;
 }
