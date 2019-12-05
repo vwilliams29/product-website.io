@@ -1,7 +1,12 @@
-
-img{
-  width: 200px;
-  height: 200px;
+body{
+  background-image: url('img/sparkle.jpg'); 
+}
+img.size{
+  width: 550px;
+  height: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .center {
   display: block;
@@ -10,14 +15,14 @@ img{
   width: 16%;
   height: 16%;
 }
-h2{
-  font-family: 'Dancing Script', cursive;
+h3{
+  font-family: 'Sulphur Point', sans-serif;
   text-align: center;
   font-size: 60px;
 }
 table{
   width: 105%;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Sulphur Point', sans-serif;
   font-size: 30px;
 }
 h1{
@@ -32,4 +37,28 @@ h1{
 }
 .topbar a.active{
   color: #d3a7fa;
+}
+h2 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size:70px;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
 }
