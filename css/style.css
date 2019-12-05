@@ -1,5 +1,5 @@
 body{
-  background-image: url('img/sparkle.jpg'); 
+ background-color: #ffe8f4;
 }
 img.size{
   width: 550px;
@@ -36,7 +36,7 @@ h1{
   background-color: white;
 }
 .topbar a.active{
-  color: #d3a7fa;
+  color: black;
 }
 h2 {
   font-family: 'Dancing Script', cursive;
