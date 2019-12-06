@@ -21,12 +21,14 @@ h3{
   font-size: 60px;
 }
 table{
-  width: 105%;
+  width: 100%;
   font-family: 'Sulphur Point', sans-serif;
   font-size: 30px;
 }
 h1{
   text-align: center;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 40px;
 }
 .topbar{
   background-color: pink;
@@ -48,7 +50,9 @@ p{
     text-align: center;
     font-size: 30px;
 }
-
+.new1{
+  border-top: 20px solid pink;
+}
 .column {
   float: left;
   width: 33.33%;
