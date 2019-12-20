@@ -1,5 +1,12 @@
 body{
- background-color: #ffe8f4;
+ background-image:url(img/roses.jpg);
+}
+img.Lol{
+width:700px;
+height:550px;
+display:block;
+margin-left: auto;
+margin-right: auto;
 }
 img.size{
   width: 550px;
@@ -7,7 +14,19 @@ img.size{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  filter:contrast(150%);
+  animation: anim 4s backwards;
 }
+@keyframes anim{
+  from{
+    filter:contrast(50%);
+
+  }
+  to{
+    filter:contrast(190px);
+  }
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -19,11 +38,14 @@ h3{
   font-family: 'Sulphur Point', sans-serif;
   text-align: center;
   font-size: 60px;
+
 }
 table{
   width: 100%;
   font-family: 'Sulphur Point', sans-serif;
   font-size: 30px;
+  border: 6px dotted white;
+  background-color: pink;
 }
 h1{
   text-align: center;
@@ -31,7 +53,6 @@ h1{
   font-size: 40px;
 }
 .topbar{
-  background-color: pink;
   overflow: hidden;
 }
 .topbar a:hover{
